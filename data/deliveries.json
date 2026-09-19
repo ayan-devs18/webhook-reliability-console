@@ -1,0 +1,39 @@
+[
+  {
+    "id": "evt_1",
+    "event": "invoice.paid",
+    "endpoint": "/billing/webhook",
+    "status": "Delivered",
+    "attempt": 1,
+    "latencyMs": 184,
+    "updatedAt": "2026-09-19T08:00:00Z"
+  },
+  {
+    "id": "evt_2",
+    "event": "call.completed",
+    "endpoint": "/voice/events",
+    "status": "Delivered",
+    "attempt": 3,
+    "latencyMs": 412,
+    "updatedAt": "2026-09-19T10:16:17.079Z",
+    "lastRetryKey": "smoke-test"
+  },
+  {
+    "id": "evt_3",
+    "event": "lead.created",
+    "endpoint": "/crm/sync",
+    "status": "Failed",
+    "attempt": 5,
+    "latencyMs": 840,
+    "updatedAt": "2026-09-19T08:09:00Z"
+  },
+  {
+    "id": "evt_4",
+    "event": "message.received",
+    "endpoint": "/inbox/events",
+    "status": "Retrying",
+    "attempt": 3,
+    "latencyMs": 316,
+    "updatedAt": "2026-09-19T08:12:00Z"
+  }
+]
